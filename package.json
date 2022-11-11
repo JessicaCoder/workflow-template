@@ -1,0 +1,39 @@
+{
+  "name": "workflow-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "format": "prettier . --write \"./**/*.{html,ts,js,json,md}\"",
+    "lint:style": "stylelint \"./**/*.{css,less,vue,html}\" --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@typescript-eslint/eslint-plugin": "^5.42.1",
+    "@typescript-eslint/parser": "^5.42.1",
+    "eslint": "^8.27.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.10",
+    "husky": "^8.0.2",
+    "postcss": "^8.4.19",
+    "postcss-html": "^1.5.0",
+    "postcss-less": "^6.0.0",
+    "prettier": "^2.7.1",
+    "stylelint": "^14.14.1",
+    "stylelint-config-prettier": "^9.0.4",
+    "stylelint-config-recommended-less": "^1.0.4",
+    "stylelint-config-standard": "^29.0.0",
+    "stylelint-less": "^1.0.6",
+    "stylelint-order": "^5.0.0",
+    "typescript": "^4.8.4"
+  }
+}
